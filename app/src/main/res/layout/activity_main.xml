@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="30dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="30dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:text="@string/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/bt_register"
+        android:text="@string/SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

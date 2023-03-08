@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">UKLMyRecyclerView</string>
+    <string name="nama_produk">Nama Produk</string>
+    <string name="harga">Harga</string>
+    <string name="list">List</string>
+    <string name="grid">grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="email">Nama</string>
+    <string name="password">password</string>
+    <string name="masukkan_data_anda">Masukkan data anda</string>
+    <string name="ActivityKedua">Login</string>
+    <string name="login">Sign In</string>
+    <string name="judul">Ayam</string>
+    <string name="judul2">Krik-krik</string>
+    <string name="SignUp">Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_text_1">SignUp</string>
+    <string name="tab_text_2">Profile</string>
+</resources>
